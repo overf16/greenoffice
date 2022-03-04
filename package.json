@@ -1,0 +1,19 @@
+{
+  "name": "3wa.exe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server --browser=chrome",
+    "compile":"node-sass sass/main.scss csss/style.css",
+    "watch":"node-sass sass/main.scss csss/style.css --watch",
+    "see": "npm-run-all compile server"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.1"
+  }
+}
