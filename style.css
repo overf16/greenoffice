@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/images/fond.png);
+  background-image: url(./images/fond.png);
   align-items: center;
   scroll-behavior: smooth; }
 
