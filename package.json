@@ -10,7 +10,7 @@
     "see": "npm-run-all compile server",
     "deploy" : "gh-pages -d dist"
   },
-  "homepage": "https://github.com/overf16/greenoffice/welcome",
+  "homepage": "https://overf16.github.io/welcome",
   "author": "",
   "license": "ISC",
   "dependencies": {
